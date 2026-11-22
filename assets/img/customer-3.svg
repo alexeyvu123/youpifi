@@ -1,0 +1,23 @@
+<svg width="240" height="240" viewBox="0 0 240 240" fill="none" xmlns="http://www.w3.org/2000/svg">
+<g stroke="#FFFFFF" stroke-width="20" stroke-linejoin="round" fill="#FFFFFF">
+  <path d="M40 232 C44 188 80 168 120 168 C160 168 196 188 200 232 Z"/>
+  <path d="M72 124 C66 56 174 56 168 124 L174 200 C150 210 90 210 66 200 Z"/>
+  <rect x="148" y="150" width="34" height="56" rx="8"/>
+</g>
+<g stroke="#191919" stroke-width="5" stroke-linejoin="round" stroke-linecap="round">
+  <path d="M72 124 C66 56 174 56 168 124 L174 200 C150 210 90 210 66 200 Z" fill="#191919"/>
+  <path d="M40 232 C44 188 80 168 120 168 C160 168 196 188 200 232 Z" fill="#FFD9C7"/>
+  <path d="M104 150 L104 172 C110 180 130 180 136 172 L136 150" fill="#FFFFFF"/>
+  <path d="M106 176 L120 192 L134 176" stroke-width="3.5"/>
+  <ellipse cx="120" cy="114" rx="38" ry="44" fill="#FFFFFF"/>
+  <path d="M155 112 C164 110 166 128 154 130" fill="#FFFFFF"/>
+  <circle cx="157" cy="138" r="5.5" stroke-width="3"/>
+  <path d="M82 112 C82 78 108 64 136 70 C150 74 158 86 158 100 C142 92 120 90 96 100 C90 104 86 108 82 112 Z" fill="#191919"/>
+  <path d="M152 92 C160 96 162 104 160 110" stroke-width="3.5"/>
+  <path d="M100 118 Q106 113 112 118 M128 118 Q134 113 140 118" stroke-width="3.5"/>
+  <path d="M108 136 Q120 145 132 136" stroke-width="3.5"/>
+  <rect x="148" y="150" width="32" height="54" rx="7" fill="#FFFFFF"/>
+  <path d="M158 158 H170" stroke-width="3"/>
+  <path d="M146 176 C138 176 138 192 148 192 M146 190 C138 190 138 204 150 204" fill="#FFFFFF" stroke-width="4"/>
+</g>
+</svg>

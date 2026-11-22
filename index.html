@@ -33,8 +33,8 @@
   <section class="hero wrap">
     <div class="hero-copy">
       <span class="eyebrow"><svg class="award" width="16" height="16" viewBox="0 0 24 24" aria-hidden="true"><g fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M8 4h8v5a4 4 0 0 1-8 0V4z"/><path d="M8 6H5.5a2.5 2.5 0 0 0 2.6 3.4M16 6h2.5a2.5 2.5 0 0 1-2.6 3.4"/><path d="M12 13v3.5M8.5 20h7M9.5 20l.8-3.5h3.4l.8 3.5"/></g></svg>Contractor of Record for teams in the EU &amp; US</span>
-      <h1>Pay anyone,<br>anywhere.<br>Calmly.</h1>
-      <p class="lead">We become the legal client of your contractors abroad: we sign the contract, take on the compliance and send the money. You pay $39 per payment. That’s the whole price list.</p>
+      <h1 aria-label="Pay anyone, anywhere. Calmly.">Pay anyone,<br>anywhere.<br><span class="rotator" aria-hidden="true"><span class="word is-on">Calmly.</span><span class="word">Compliantly.</span><span class="word">Confidently.</span></span></h1>
+      <p class="lead">With youpifi you pay contractors anywhere in the world, without the paperwork. Contracts, compliance and the payout itself are handled for you. $39 per payment. That’s the whole price list.</p>
       <div class="ctas">
         <a class="btn btn-primary btn-lg" href="#start">Send your first payment</a>
         <a class="btn btn-secondary btn-lg" href="#how">See how it works</a>
@@ -54,17 +54,17 @@
 
       <div class="payout c1">
         <span class="avatar"><img src="assets/img/face-00.jpg" alt=""><span class="fi fi-pt fis"></span></span>
-        <span class="who"><b>Ana Silva</b><small>Lisbon, PT · SEPA</small></span>
+        <span class="who"><b>Ana Silva</b><small>Lisbon, PT <span class="rail-tag">SEPA</span></small></span>
         <span class="amt"><b>€2,400.00</b><span class="status paid">Paid</span></span>
       </div>
       <div class="payout c2">
         <span class="avatar"><img src="assets/img/face-01.jpg" alt=""><span class="fi fi-gh fis"></span></span>
-        <span class="who"><b>Kwame Mensah</b><small>Accra, GH · Local rails</small></span>
+        <span class="who"><b>Kwame Mensah</b><small>Accra, GH <span class="rail-tag">Local rails</span></small></span>
         <span class="amt"><b>$1,850.00</b><span class="status transit">In transit</span></span>
       </div>
       <div class="payout c3">
         <span class="avatar"><img src="assets/img/face-02.jpg" alt=""><span class="fi fi-jp fis"></span></span>
-        <span class="who"><b>Mei Tanaka</b><small>Tokyo, JP · SWIFT</small></span>
+        <span class="who"><b>Mei Tanaka</b><small>Tokyo, JP <span class="rail-tag">SWIFT</span></small></span>
         <span class="amt"><b>¥310,000</b><span class="status paid">Paid</span></span>
       </div>
     </div>
@@ -302,16 +302,32 @@
     </div>
   </section>
 
-  <!-- TESTIMONIAL — PLACEHOLDER: replace quote, name and company with a real customer before launch -->
+  <!-- TESTIMONIALS — PLACEHOLDERS: replace quotes, names and companies with real customers before launch -->
   <section class="quote wrap">
-    <figure>
+    <span class="placeholder-tag">Placeholder reviews — replace with real customers</span>
+    <figure class="review featured">
       <img class="quote-art" src="assets/img/customer.png" alt="Illustrated portrait of a studio founder holding a coffee mug">
       <div>
-        <span class="placeholder-tag">Placeholder quote — replace with a real customer</span>
         <blockquote>“We pay eleven designers in six countries. It used to eat a day every month. <mark>Now it takes about as long as my coffee.</mark>”</blockquote>
-        <figcaption><b>Lena Hofmann</b><span>Founder, design studio · Berlin <span class="fi fi-de fis"></span></span></figcaption>
+        <figcaption><b>Lena Hofmann</b><span>Founder, design studio, Berlin <span class="fi fi-de fis"></span></span></figcaption>
       </div>
     </figure>
+    <div class="review-row">
+      <figure class="review bg-sky">
+        <blockquote>“Our developers in Brazil and Mexico get paid on their own local rails now. <mark>Nobody asks me where the money is anymore.</mark>”</blockquote>
+        <figcaption>
+          <img src="assets/img/customer-2.svg" alt="Illustrated portrait of an agency owner in a beanie">
+          <span class="by"><b>Tom Becker</b><span>Owner, product agency, Austin <span class="fi fi-us fis"></span></span></span>
+        </figcaption>
+      </figure>
+      <figure class="review bg-peach">
+        <blockquote>“I was worried about compliance with contractors abroad. <mark>Now contracts and documents are just there when I need them.</mark>”</blockquote>
+        <figcaption>
+          <img src="assets/img/customer-3.svg" alt="Illustrated portrait of a CTO holding a phone">
+          <span class="by"><b>Sofia Romano</b><span>CTO, fintech startup, Milan <span class="fi fi-it fis"></span></span></span>
+        </figcaption>
+      </figure>
+    </div>
   </section>
 
   <!-- FAQ -->
@@ -353,12 +369,48 @@
   </section>
 </main>
 
-<footer class="footer wrap rule">
-  <span class="wordmark">youpifi</span>
-  <nav aria-label="Footer">
-    <a href="#pricing">Pricing</a><a href="#times">Payout times</a><a href="#faq">FAQ</a><a href="#">Privacy</a><a href="#">Terms</a>
-  </nav>
-  <span>© 2026 youpifi</span>
+<!-- FOOTER — TODO: real URLs for pages, contacts and socials -->
+<footer class="footer">
+  <div class="wrap footer-grid">
+    <div class="footer-brand">
+      <a class="wordmark" href="#">youpifi</a>
+      <p>Calm payouts to contractors anywhere. Contractor of Record for teams in the EU &amp; US.</p>
+      <a class="btn btn-primary" href="#start">Send your first payment</a>
+    </div>
+    <nav class="footer-col" aria-label="Product">
+      <b>Product</b>
+      <a href="#how">How it works</a>
+      <a href="#times">Payout times</a>
+      <a href="#pricing">Pricing</a>
+      <a href="#faq">FAQ</a>
+    </nav>
+    <nav class="footer-col" aria-label="Company">
+      <b>Company</b>
+      <a href="#">About</a>
+      <a href="#">Careers</a>
+      <a href="#">Blog</a>
+      <a href="#">Partners</a>
+    </nav>
+    <nav class="footer-col" aria-label="Resources">
+      <b>Resources</b>
+      <a href="#">Help center</a>
+      <a href="#">Contractor guide</a>
+      <a href="#">Countries we pay</a>
+      <a href="#">Security</a>
+    </nav>
+    <div class="footer-col">
+      <b>Contact</b>
+      <a href="#">Email us</a>
+      <a href="#book-call">Book a call</a>
+      <a href="#">LinkedIn</a>
+      <a href="#">X / Twitter</a>
+    </div>
+  </div>
+  <div class="wrap footer-bottom">
+    <span>© 2026 youpifi</span>
+    <nav aria-label="Legal"><a href="#">Privacy</a><a href="#">Terms</a><a href="#">Cookies</a></nav>
+  </div>
+  <div class="footer-giant" aria-hidden="true">youpifi</div>
 </footer>
 
 <script>
@@ -367,6 +419,21 @@
     var lanes = t.querySelectorAll('.lane');
     if (lanes.length === 2) lanes[1].innerHTML = lanes[0].innerHTML;
   });
+
+  // Hero word rotator: Calmly → Compliantly → Confidently
+  (function () {
+    var words = document.querySelectorAll('.rotator .word');
+    if (!words.length || window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+    var i = 0;
+    setInterval(function () {
+      words[i].classList.remove('is-on');
+      words[i].classList.add('is-off');
+      var prev = words[i];
+      setTimeout(function () { prev.classList.remove('is-off'); }, 600);
+      i = (i + 1) % words.length;
+      words[i].classList.add('is-on');
+    }, 2800);
+  })();
 </script>
 </body>
 </html>

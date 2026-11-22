@@ -414,3 +414,12 @@ h1 { margin: 28px 0; font-size: clamp(48px, 6.6vw, 76px); line-height: .98; lett
 .fi-it { background-image: url(assets/flags/it.svg); }
 .review-row .by > span { display: block; }
 .review-row .by .fi { display: inline-block; vertical-align: -3px; margin-left: 4px; }
+
+/* reviews heading + video link */
+.quote { padding-top: 64px; }
+.quote-head { display: flex; align-items: flex-end; justify-content: space-between; gap: 24px; flex-wrap: wrap; margin-bottom: 24px; }
+.video-link { display: inline-flex; align-items: center; gap: 12px; padding: 8px 18px 8px 8px; border-radius: 999px; background: var(--white); border: 1px solid var(--mist); font-weight: 600; font-size: 15px; transition: border-color .15s ease, transform .15s ease; }
+.video-link:hover { border-color: #d6d6cf; transform: translateY(-1px); }
+.play { display: grid; place-items: center; width: 34px; height: 34px; border-radius: 50%; background: var(--ink); color: var(--white); }
+.play svg { margin-left: 2px; }
+.proof { margin-top: 8px; }

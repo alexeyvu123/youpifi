@@ -659,3 +659,16 @@ html { scroll-padding-top: 80px; }
   .nav-center.chips a { flex: 1; text-align: center; }
   .nav-actions .btn { padding: 7px 10px; font-size: 13px; }
 }
+
+/* ---------- header: classic layout (logo + audience menu, links, actions) ---------- */
+.nav { display: flex; align-items: center; gap: 28px; padding: 14px 0; }
+.nav .nav-links { display: flex; gap: 26px; padding: 0; border: 0; border-radius: 0; background: none; font-size: 15px; font-weight: 500; color: var(--graphite); }
+.nav .nav-links a { padding: 0; border-radius: 0; background: none; white-space: nowrap; }
+.nav .nav-links a:hover { background: none; color: var(--ink); }
+.nav .nav-actions { margin-left: auto; }
+@media (max-width: 1180px) { .nav .nav-links { display: none; } }
+@media (max-width: 720px) {
+  .nav { gap: 8px; }
+  .brand-aud { min-width: 0; }
+  .aud summary { max-width: 52vw; overflow: hidden; text-overflow: ellipsis; }
+}

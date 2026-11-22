@@ -15,6 +15,7 @@
   --forest: #102A1E;
 
   --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --hand: "Caveat", "Segoe Print", "Comic Sans MS", cursive;
   --mono: "Geist Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
   --shadow-sm: 0 4px 14px rgba(26, 26, 20, .06);
   --shadow: 0 8px 24px rgba(20, 26, 16, .09);
@@ -80,7 +81,24 @@ h2 { font-size: clamp(34px, 4.6vw, 56px); line-height: 1.04; letter-spacing: -0.
   padding: 6px 12px; border-radius: 999px; background: var(--white); border: 1px solid var(--mist);
   font-size: 13px; font-weight: 500; color: var(--graphite);
 }
-.dot { width: 7px; height: 7px; border-radius: 50%; background: var(--green); }
+.award { color: var(--green-text); flex: none; }
+
+/* handwritten proof numbers */
+.proof { list-style: none; margin: 36px 0 0; padding: 0; display: flex; flex-wrap: wrap; gap: 12px 40px; }
+.proof li { position: relative; display: flex; flex-direction: column; line-height: 1; }
+.proof b { position: relative; font-family: var(--hand); font-weight: 700; font-size: 46px; letter-spacing: 0; color: var(--ink); padding-bottom: 6px; }
+.proof span { font-family: var(--hand); font-weight: 600; font-size: 22px; color: var(--graphite); margin-top: 2px; }
+.proof .p1 { transform: rotate(-3deg); }
+.proof .p2 { transform: rotate(1.5deg); }
+.proof .p3 { transform: rotate(-1.5deg); }
+.proof .p1 b::after, .proof .p2 b::after {
+  content: ""; position: absolute; left: -2px; right: -4px; bottom: 0; height: 10px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 120 10' preserveAspectRatio='none'%3E%3Cpath d='M2 6.5C22 3 44 8.5 64 5s38-3.5 54 0' fill='none' stroke='%231FAA59' stroke-width='3' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat;
+}
+.proof .p3 b::after {
+  content: ""; position: absolute; left: -12px; right: -14px; top: -8px; bottom: -4px;
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 140 70' preserveAspectRatio='none'%3E%3Cpath d='M78 6C40 2 6 14 5 34s30 32 70 31 62-12 60-32S104 4 66 8' fill='none' stroke='%231FAA59' stroke-width='2.6' stroke-linecap='round'/%3E%3C/svg%3E") center/100% 100% no-repeat;
+}
 h1 { margin: 28px 0; font-size: clamp(48px, 6.6vw, 76px); line-height: .98; letter-spacing: -0.045em; font-weight: 700; }
 .lead { font-size: 19px; line-height: 1.52; color: var(--graphite); max-width: 500px; }
 .ctas { display: flex; flex-wrap: wrap; gap: 12px; margin: 28px 0; }
@@ -121,10 +139,16 @@ h1 { margin: 28px 0; font-size: clamp(48px, 6.6vw, 76px); line-height: .98; lett
 
 @keyframes bob { 0%, 100% { transform: translateY(0) } 50% { transform: translateY(-6px) } }
 
-/* ---------- one thing ---------- */
-.one { padding: 120px 0; text-align: center; }
-.one h2 { font-size: clamp(30px, 4vw, 48px); line-height: 1.12; letter-spacing: -0.035em; }
-.one p { margin-top: 24px; font-size: 19px; color: var(--graphite); }
+/* ---------- founder note ---------- */
+.founder-note { padding: 112px 0; }
+.founder-note figure { margin: 0 auto; max-width: 860px; text-align: center; }
+.founder-note blockquote { margin: 0; font-size: clamp(26px, 3.2vw, 38px); font-weight: 600; line-height: 1.24; letter-spacing: -0.03em; }
+.founder-note mark { background: linear-gradient(transparent 60%, var(--butter) 60%); color: inherit; }
+.founder-note .sign { flex-direction: row; margin-top: 40px; display: inline-flex; flex-wrap: wrap; align-items: center; justify-content: center; gap: 16px 20px; }
+.sign-avatar { display: grid; place-items: center; width: 52px; height: 52px; border-radius: 50%; background: var(--matcha); color: var(--green-text); font-weight: 600; border: 2px solid var(--white); box-shadow: 0 0 0 1px var(--mist); }
+.sign-who { display: flex; flex-direction: column; text-align: left; line-height: 1.2; }
+.sign-who b { font-family: var(--hand); font-size: 30px; font-weight: 700; transform: rotate(-2deg); transform-origin: left; }
+.sign-who small { font-size: 14px; color: var(--graphite); }
 
 /* ---------- how it works ---------- */
 .how { padding: 112px 0; }
@@ -326,7 +350,9 @@ figcaption .fi { width: 16px; height: 16px; border-radius: 50%; background-size:
   .payout { width: 320px; padding: 12px 14px; }
   .payout.c1 { left: 12px; top: 220px; } .payout.c2 { left: 28px; top: 316px; } .payout.c3 { left: 16px; top: 412px; }
   .steps, .bento { grid-template-columns: 1fr; }
-  .one, .how, .calm, .faq { padding: 80px 0; }
+  .founder-note, .how, .calm, .faq { padding: 80px 0; }
+  .proof { gap: 12px 28px; }
+  .proof b { font-size: 40px; }
   .band-top { padding: 0 24px; }
   .stats { grid-template-columns: 1fr 1fr; row-gap: 24px; }
   .price-card { padding: 32px 24px; }

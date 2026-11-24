@@ -687,3 +687,7 @@ html { scroll-padding-top: 80px; }
   .gp-pifi { width: 150px; }
   .final-box img { width: 190px; }
 }
+
+/* ---------- people v2 ---------- */
+.founder { width: 250px; bottom: 6px; }
+.review-row figcaption img { width: 80px; height: 80px; padding: 6px 6px 0; border-radius: 50%; background: var(--white); object-fit: contain; object-position: bottom; overflow: hidden; }

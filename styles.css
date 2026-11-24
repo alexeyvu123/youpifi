@@ -1233,3 +1233,13 @@ mark[class^="h-"] { background: var(--hl); color: inherit; padding: .05em .3em; 
 .cc-cap { left: 14px; top: 30%; }
 .cc-saved { right: 12px; bottom: 12px; background: var(--ink); color: var(--white); }
 .capchart b { font-weight: 500; }
+
+/* calm tiles v2: faceless video covers, plain chart labels */
+.vid.vc1 { background: linear-gradient(170deg, #f3d9b1, #e8a86b); }
+.vid.vc2 { background: linear-gradient(170deg, #cfe0d4, #8fb9a0); }
+.vid::after { background: linear-gradient(transparent 60%, rgba(0, 0, 0, .35)); }
+.vid-cap { position: absolute; left: 8px; right: 8px; top: 18px; z-index: 1; padding: 4px 6px; border-radius: 6px; background: #fff; color: var(--ink); font-size: 10.5px; font-weight: 700; line-height: 1.25; text-align: center; }
+.fan-eq { font-weight: 500; }
+.cc-l { position: absolute; font-size: 12px; color: var(--graphite); }
+.cc-views { right: 14px; top: 10px; }
+.cc-cap { left: 16px; top: 18%; color: var(--ink); font-weight: 500; }

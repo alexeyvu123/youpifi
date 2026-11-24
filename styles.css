@@ -689,5 +689,5 @@ html { scroll-padding-top: 80px; }
 }
 
 /* ---------- people v2 ---------- */
-.founder { width: 250px; bottom: 6px; }
+.founder { width: 310px; bottom: 28px; }
 .review-row figcaption img { width: 80px; height: 80px; padding: 6px 6px 0; border-radius: 50%; background: var(--white); object-fit: contain; object-position: bottom; overflow: hidden; }

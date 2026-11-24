@@ -1,6 +1,6 @@
-# talentpay
+# youpifi
 
-Landing page for **talentpay** — a contractor of record for small and mid-size teams in the EU and US. Pay anyone, anywhere. Calmly. $39 per payment.
+Landing page for **youpifi** — a contractor of record for small and mid-size teams in the EU and US. Pay anyone, anywhere. Calmly. $39 per payment.
 
 ## Structure
 

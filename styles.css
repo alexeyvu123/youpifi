@@ -1118,3 +1118,4 @@ mark[class^="h-"] { background: var(--hl); color: inherit; padding: .05em .3em; 
 .app svg { width: 52%; height: 52%; }
 .a6 svg { stroke: #fff; }
 .xpost { height: 100%; padding-top: 0; align-content: center; }
+@media (max-width: 720px) { .mess-sec .swipe-hint { margin: 14px 0 0; } }

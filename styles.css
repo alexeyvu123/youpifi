@@ -1184,3 +1184,23 @@ mark[class^="h-"] { background: var(--hl); color: inherit; padding: .05em .3em; 
 .d1 { top: 70%; }
 @media (max-width: 1060px) { .desk { height: 600px; } }
 @media (max-width: 720px) { .desk { height: auto; } }
+
+/* ---------- inline CTA band (shared) ---------- */
+.cta-inline { padding: 8px 0 72px; }
+.cta-inline.tight { padding-top: 0; }
+.cta-band { display: flex; align-items: center; gap: 20px; padding: 18px 20px 18px 24px; border-radius: 20px; background: var(--white); border: 1px solid var(--mist); box-shadow: var(--shadow-sm); }
+.cta-band img { width: 64px; flex: none; }
+.cta-copy { flex: 1; display: flex; flex-direction: column; gap: 2px; min-width: 0; }
+.cta-copy b { font-size: 19px; font-weight: 700; letter-spacing: -0.02em; }
+.cta-copy span { font-size: 15px; color: var(--graphite); }
+.cta-btns { display: flex; gap: 10px; flex: none; }
+@media (max-width: 720px) {
+  .cta-inline { padding-bottom: 56px; }
+  .cta-band { flex-wrap: wrap; padding: 18px; }
+  .cta-band img { width: 52px; }
+  .cta-copy { flex-basis: calc(100% - 72px); }
+  .cta-btns { width: 100%; }
+  .cta-btns .btn { flex: 1; justify-content: center; }
+}
+.cta-inline { margin-top: -56px; }
+@media (max-width: 720px) { .cta-inline { margin-top: -36px; } }

@@ -6,7 +6,7 @@ Landing page for **youpifi** — a contractor of record for small and mid-size t
 
 - `index.html` — the landing page (static, no build step)
 - `styles.css` — styles; color and type tokens follow `BRAND.md`
-- `assets/img/` — mascot Pifi (SVG), illustrations, contractor portraits
+- `assets/img/` — mascot Pifi (PNG, from Figma), illustrations, contractor portraits
 - `assets/flags/` — round country flags from [flag-icons](https://github.com/lipis/flag-icons) (MIT)
 - `BRAND.md` — brand identity: positioning, voice, colors, type, illustration rules
 

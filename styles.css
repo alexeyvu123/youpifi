@@ -672,3 +672,18 @@ html { scroll-padding-top: 80px; }
   .brand-aud { min-width: 0; }
   .aud summary { max-width: 52vw; overflow: hidden; text-overflow: ellipsis; }
 }
+
+/* ---------- Pifi v3 (line-art illustrations, no sticker outline) ---------- */
+.collage-pifi, .cr-pifi, .gp-pifi, .tile-pifi { filter: none; }
+.collage-pifi { width: 250px; left: 30px; top: 6px; }
+.cr-pifi { width: 170px; left: 18px; top: 8px; }
+.gp-pifi { width: 210px; left: 14px; top: 20px; }
+.tile-pifi { width: auto; height: 176px; top: 0; }
+.mini-pifi { width: 58px; left: -34px; top: -22px; }
+.final-box img { width: 260px; }
+@media (max-width: 720px) {
+  .collage-pifi { width: 190px; left: 10px; }
+  .cr-pifi { width: 120px; }
+  .gp-pifi { width: 150px; }
+  .final-box img { width: 190px; }
+}

@@ -36,9 +36,8 @@
       </details>
     </div>
     <nav class="nav-links" aria-label="Main">
-      <a href="#programs">Programs</a>
       <a href="#how">How it works</a>
-      <a href="#calculator">Calculator</a>
+      <a href="#programs">Programs</a>
       <a href="#pricing">Pricing</a>
       <a href="#faq">FAQ</a>
     </nav>
@@ -60,7 +59,7 @@
       <p class="lead">Write the deal in one sentence. youpifi counts every view, explains every dollar and pays everyone in one click, as the merchant of record.</p>
       <div class="ctas">
         <a class="btn btn-primary btn-lg" href="#start">Book a demo</a>
-        <a class="btn btn-secondary btn-lg" href="#calculator">Try the calculator</a>
+        <a class="btn btn-secondary btn-lg" href="#pricing">Try the calculator</a>
       </div>
       <ul class="proof" aria-label="In short">
         <li class="p1"><b>1</b><span>sentence to set up</span></li>
@@ -93,333 +92,179 @@
     </div>
   </section>
 
-  <!-- 2. PAIN — "systems that never spoke" collage -->
-  <section class="chaos-sec wrap rule">
+  <!-- 2. PROBLEM — confused Pifi with the mess around -->
+  <section class="mess-sec wrap rule">
     <div class="head center">
       <span class="kicker">Without youpifi</span>
       <h2>Twelve tabs and a lot of DMs.</h2>
-      <p>This is what paying 300 creators looks like when nothing talks to each other.</p>
+      <p>Views in one place, money in another, paperwork somewhere in your inbox. Paying 300 creators shouldn’t feel like this.</p>
     </div>
-    <p class="swipe-hint" aria-hidden="true">Swipe to see the mess →</p>
-    <div class="chaos-scroll"><div class="chaos" aria-hidden="true">
-      <svg class="chaos-lines" viewBox="0 0 1000 560" preserveAspectRatio="none">
-        <g fill="none" stroke="#9a9a92" stroke-width="1.4" stroke-dasharray="4 6" stroke-linecap="round">
-          <path d="M250 150 C 330 110, 360 120, 410 160"/>
-          <path d="M520 190 C 600 230, 640 210, 690 150"/>
-          <path d="M300 330 C 360 380, 420 420, 470 400"/>
-          <path d="M560 380 C 620 330, 660 330, 720 360"/>
-          <path d="M820 230 C 860 280, 850 300, 820 340"/>
-          <path d="M160 250 C 120 300, 140 330, 190 340"/>
-          <path d="M470 120 C 480 60, 560 40, 600 70"/>
-          <path d="M770 440 C 700 500, 620 500, 580 470"/>
-        </g>
+    <div class="orbit" aria-hidden="true">
+      <svg class="orbit-lines" viewBox="0 0 100 100" preserveAspectRatio="none">
+        <g fill="none" stroke="#c9c9c0" stroke-width="1.2" stroke-dasharray="1 5" stroke-linecap="round"><path d="M50 52 Q37.9 33.3 20 20" vector-effect="non-scaling-stroke"/><path d="M50 52 Q54.0 29.5 50 7" vector-effect="non-scaling-stroke"/><path d="M50 52 Q67.9 38.7 80 20" vector-effect="non-scaling-stroke"/><path d="M50 52 Q68.0 56.0 86 52" vector-effect="non-scaling-stroke"/><path d="M50 52 Q61.5 71.1 79 85" vector-effect="non-scaling-stroke"/><path d="M50 52 Q46.0 73.5 50 95" vector-effect="non-scaling-stroke"/><path d="M50 52 Q32.5 65.9 21 85" vector-effect="non-scaling-stroke"/><path d="M50 52 Q32.0 48.0 14 52" vector-effect="non-scaling-stroke"/></g>
       </svg>
-
-      <!-- stacked spreadsheets -->
-      <div class="ch ch-sheet" style="--x:2%;--y:44%;--r:-2deg">
-        <div class="sheet back2"></div><div class="sheet back1"></div>
-        <div class="sheet">
-          <div class="sheet-bar">creator_views_FINAL_v7.xlsx</div>
-          <table>
-            <tr><th>Creator</th><th>Views</th><th>Rate</th><th>Owed</th><th>Paid?</th></tr>
-            <tr><td>@mila.draws</td><td>48,210</td><td>$25</td><td>$1,205</td><td class="bad">??</td></tr>
-            <tr><td>@clipking</td><td>31,900</td><td>$25</td><td>$797</td><td>yes</td></tr>
-            <tr><td>@nina.ugc</td><td>#REF!</td><td>$25</td><td class="bad">#REF!</td><td>no</td></tr>
-            <tr><td>@daniel.vlogs</td><td>12,040</td><td>$20</td><td>$240</td><td>yes?</td></tr>
-            <tr><td>@sam_reacts</td><td>88,400</td><td>$25</td><td>$2,210</td><td>pending</td></tr>
-          </table>
-        </div>
-      </div>
-
-      <!-- DM bubbles -->
-      <div class="ch ch-dm" style="--x:3%;--y:6%;--r:-1deg"><img src="assets/img/face-12.jpg" alt=""><span><small>Lucas · DM</small>hey, where’s my money for March?</span></div>
-      <div class="ch ch-dm" style="--x:60%;--y:66%;--r:1.5deg"><img src="assets/img/face-20.jpg" alt=""><span><small>Olena · DM</small>my Reel and TikTok are the same video, paid twice?</span></div>
-      <div class="ch ch-dm" style="--x:74%;--y:86%;--r:-1deg"><img src="assets/img/face-01.jpg" alt=""><span><small>Finance</small>which creators are we paying this week??</span></div>
-
-      <!-- payout form with error -->
-      <div class="ch ch-form" style="--x:44%;--y:20%;--r:1deg">
-        <b>Send payment</b>
-        <label>Recipient email</label><div class="f-in">clipking@gmial.com</div>
-        <label>Amount</label><div class="f-in">797.00</div>
-        <p class="f-err">⚠ Recipient not found. Payment failed.</p>
-      </div>
-
-      <!-- inbox badge -->
-      <div class="ch ch-mail" style="--x:70%;--y:6%;--r:-2deg"><svg width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="#191919" stroke-width="1.6" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg><em>2,184</em><small>Re: bank details for payout</small></div>
-
-      <!-- pdf files -->
-      <div class="ch ch-file" style="--x:34%;--y:2%"><span class="doc-ico">PDF</span><small>W-8BEN_mila (2).pdf</small></div>
-      <div class="ch ch-file" style="--x:87%;--y:50%"><span class="doc-ico">PDF</span><small>invoice_creator_114.pdf</small></div>
-      <div class="ch ch-folder" style="--x:42%;--y:76%"><span class="folder-ico"></span><small>[UNPAID] creators</small></div>
-
-      <!-- analytics screenshot -->
-      <div class="ch ch-stats" style="--x:78%;--y:24%;--r:2deg">
-        <small>Screenshot 2026-03-14.png</small>
-        <div class="stats-bars"><i style="height:30%"></i><i style="height:55%"></i><i style="height:42%"></i><i style="height:80%"></i><i style="height:64%"></i><i style="height:92%"></i></div>
-        <span>Views: 48.2K ?</span>
-      </div>
-    </div>
-
-    </div>
-    <div class="chaos-after">
-      <img src="assets/img/pifi-rest.png" alt="">
-      <p><b>youpifi puts it in one place.</b> Rules, views, proof, tax forms and payouts, talking to each other.</p>
+      <div class="orbit-core"><img src="assets/img/pifi-confused.png" alt=""></div>
+      <div class="bit" style="--x:20%;--y:20%;--r:-1.5deg"><span class="bit-ico i-sheet">XLS</span><span><b>creator_views_FINAL_v7.xlsx</b><small>Owed: <em class="bad">#REF!</em></small></span></div>
+      <div class="bit" style="--x:50%;--y:7%;--r:1deg"><span class="bit-ico i-mail"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"><rect x="3" y="5" width="18" height="14" rx="2.5"/><path d="M3.5 6.5 12 13l8.5-6.5"/></svg></span><span><b>2,184 unread</b><small>Re: bank details for payout</small></span></div>
+      <div class="bit" style="--x:80%;--y:20%;--r:1.5deg"><img class="bit-ava" src="assets/img/face-12.jpg" alt=""><span><b>Lucas</b><small>where’s my money for March?</small></span></div>
+      <div class="bit" style="--x:86%;--y:52%;--r:-1deg"><span class="bit-ico i-fail">!</span><span><b>Payment failed</b><small>Recipient not found</small></span></div>
+      <div class="bit" style="--x:79%;--y:85%;--r:1.2deg"><img class="bit-ava" src="assets/img/face-20.jpg" alt=""><span><b>Olena</b><small>TikTok and Reels, paid twice?</small></span></div>
+      <div class="bit" style="--x:50%;--y:95%;--r:-0.8deg"><span class="bit-ico i-pdf">PDF</span><span><b>W-8BEN_mila (2).pdf</b><small>which one is the final?</small></span></div>
+      <div class="bit" style="--x:21%;--y:85%;--r:1deg"><span class="bit-ico i-shot"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"><path d="M5 19V11M10 19V7M15 19v-5M20 19V4"/></svg></span><span><b>Screenshot_0314.png</b><small>Views: 48.2K?</small></span></div>
+      <div class="bit" style="--x:14%;--y:52%;--r:-1.2deg"><img class="bit-ava" src="assets/img/face-01.jpg" alt=""><span><b>Finance</b><small>who are we paying this week?</small></span></div>
     </div>
   </section>
 
-  <!-- 3. HOW IT WORKS -->
-  <section class="how wrap rule" id="how">
+  <!-- 3. HOW IT WORKS — upload, apply, pay -->
+  <section class="flow-sec wrap rule" id="how">
     <div class="head center">
       <span class="kicker">How it works</span>
-      <h2>Describe. Track. Pay.</h2>
-      <p>You set the deal once. We do the counting and the paying, every week or every month.</p>
+      <h2>Upload results. Everyone gets paid.</h2>
+      <p>Drop a file with views or connect TikTok, Instagram and YouTube. youpifi applies your deal, shows the math and pays everyone once you say yes.</p>
     </div>
-    <div class="steps">
-      <article class="step">
-        <div class="visual v-describe" aria-hidden="true">
-          <div class="mini-prompt">
-            <b>Describe your program</b>
-            <p>Pay creators $2 per 1,000 views on clips of our podcast. Cap $500 each.</p>
-            <span class="mini-btn">Build it</span>
-          </div>
-          <div class="mini-q">
-            <span class="mini-pifi"><img src="assets/img/pifi-walk.png" alt=""></span>
-            <p>Quick question: count YouTube Shorts too?</p>
-            <div><span class="opt-chip">Only TikTok</span><span class="opt-chip on">TikTok + Shorts</span></div>
-          </div>
+    <div class="flow" aria-hidden="true">
+      <article class="fl-card">
+        <span class="fl-step"><i>1</i>Upload</span>
+        <div class="drop">
+          <span class="drop-file">CSV</span>
+          <span><b>results_march.csv</b><small>312 posts · 24 creators</small></span>
+          <span class="drop-ok">✓</span>
         </div>
-        <h3><span class="num">1</span>Describe the deal</h3>
-        <p>In plain words. If something is unclear, we ask before anything goes live.</p>
+        <table class="fl-table">
+          <tr><th>creator</th><th>post</th><th>views</th></tr>
+          <tr><td>priya.n</td><td>tt/8812</td><td>18,400</td></tr>
+          <tr><td>priya.n</td><td>tt/8840</td><td>12,800</td></tr>
+          <tr><td>olena.k</td><td>ig/2291</td><td>41,000</td></tr>
+          <tr><td>diego.r</td><td>yt/0917</td><td>3,100</td></tr>
+        </table>
+        <div class="fl-or"><span>or connect</span><em>TikTok</em><em>Instagram</em><em>YouTube</em><em>API</em></div>
       </article>
 
-      <article class="step">
-        <div class="visual v-track" aria-hidden="true">
-          <div class="track-card">
-            <div class="track-top"><span>Views · last 30 days</span><b class="mono">842,300</b></div>
-            <ul>
-              <li><img src="assets/img/face-02.jpg" alt=""><span>Mei T.</span><i style="width:88%"></i><b class="mono">212k</b></li>
-              <li><img src="assets/img/face-10.jpg" alt=""><span>Tomasz W.</span><i style="width:64%"></i><b class="mono">154k</b></li>
-              <li><img src="assets/img/face-00.jpg" alt=""><span>Ana S.</span><i style="width:47%"></i><b class="mono">113k</b></li>
-              <li><img src="assets/img/face-22.jpg" alt=""><span>Linh P.</span><i style="width:22%"></i><b class="mono">52k</b></li>
-            </ul>
-            <div class="track-src"><span>TikTok</span><span>Instagram</span><span>YouTube</span><span>API</span><span>File upload</span></div>
-          </div>
-        </div>
-        <h3><span class="num">2</span>We count the results</h3>
-        <p>From TikTok, Instagram, YouTube and more, or from your own data via API or a file.</p>
+      <span class="fl-arrow"></span>
+
+      <article class="fl-card">
+        <span class="fl-step"><i>2</i>Apply your deal</span>
+        <p class="fl-rule">Pay <mark class="h-rate">$25 per 1,000 views</mark>, <mark class="h-min">from 5,000 views</mark>, <mark class="h-cap">cap $800</mark>.</p>
+        <ul class="fl-math">
+          <li><span>Priya N.</span><i>31,200 views</i><b class="mono">$780.00</b></li>
+          <li><span>Olena K.</span><i>41,000 · capped</i><b class="mono">$800.00</b></li>
+          <li><span>Lucas M.</span><i>24,800 views</i><b class="mono">$620.00</b></li>
+          <li class="muted"><span>Diego R.</span><i>under 5,000</i><b class="mono">$0.00</b></li>
+        </ul>
+        <span class="fl-note">Every amount links to the posts behind it.</span>
       </article>
 
-      <article class="step">
-        <div class="visual v-pay" aria-hidden="true">
-          <div class="faces">
-            <div class="frow">
-              <img src="assets/img/face-11.jpg" alt=""><span class="tok t-butter">$</span><img src="assets/img/face-12.jpg" alt=""><span class="fi fi-in fis tokflag"></span><img src="assets/img/face-20.jpg" alt="">
-            </div>
-            <div class="frow shift">
-              <span class="fi fi-br fis tokflag"></span><img src="assets/img/face-21.jpg" alt=""><span class="tok t-peach">€</span><img src="assets/img/face-02.jpg" alt=""><img src="assets/img/face-10.jpg" alt="">
-            </div>
-            <div class="frow">
-              <img src="assets/img/face-00.jpg" alt=""><span class="fi fi-mx fis tokflag"></span><img src="assets/img/face-22.jpg" alt=""><span class="tok t-sky">₹</span><img src="assets/img/face-01.jpg" alt="">
-            </div>
-          </div>
-          <span class="pay-btn">Approve &amp; pay 24 <em>one click</em></span>
-        </div>
-        <h3><span class="num">3</span>Approve and pay</h3>
-        <p>You review the run and press pay. Everyone gets paid in their currency, to the method they chose.</p>
+      <span class="fl-arrow"></span>
+
+      <article class="fl-card fl-pay">
+        <span class="fl-step"><i>3</i>Approve &amp; pay</span>
+        <ul class="fl-paid">
+          <li><img src="assets/img/face-11.jpg" alt=""><span>Priya N.</span><span class="status paid">Paid</span></li>
+          <li><img src="assets/img/face-20.jpg" alt=""><span>Olena K.</span><span class="status paid">Paid</span></li>
+          <li><img src="assets/img/face-12.jpg" alt=""><span>Lucas M.</span><span class="status paid">Paid</span></li>
+          <li><img src="assets/img/face-02.jpg" alt=""><span>Mei T.</span><span class="status transit">In transit</span></li>
+        </ul>
+        <div class="fl-total"><span>24 creators · 9 countries</span><b class="mono">$6,480.00</b></div>
+        <span class="fl-btn">Approved by you · Fri 09:00</span>
       </article>
     </div>
   </section>
 
-  <!-- 4. RULES ENGINE -->
-  <section class="rules-sec wrap rule" id="programs">
+  <!-- 4. DEALS — words become rules -->
+  <section class="deals-sec wrap rule" id="programs">
     <div class="head">
       <span class="kicker">Programs</span>
-      <h2>Any deal that pays on views or deliveries.</h2>
-      <p>Fixed fees, per-1,000-view rates, bonuses and caps. Mix them the way your deal actually works.</p>
+      <h2>Write the deal like you’d say it.</h2>
+      <p>Fixed fees, per-view rates, bonuses, caps and schedules. Each part of your sentence becomes a rule you can check.</p>
     </div>
-
-    <div class="rules" data-tabs>
+    <div class="deals" data-tabs>
       <div class="rule-tabs" role="tablist">
         <button role="tab" aria-selected="true" data-tab="ugc">UGC</button>
         <button role="tab" aria-selected="false" data-tab="clip">Clipping</button>
         <button role="tab" aria-selected="false" data-tab="infl">Influencers</button>
         <button role="tab" aria-selected="false" data-tab="amb">Ambassadors</button>
       </div>
-
-      <div class="rule-panel" data-panel="ugc">
-        <div class="rule-text">
-          <h3>UGC videos</h3>
-          <p>Pay per delivered video, add a bonus when one takes off, and never pay twice for a cross-post.</p>
-          <q class="mono">“$150 per video, max 4 a month. +$100 when a video passes 100k views in its first 7 days.”</q>
-        </div>
-        <div class="rule-build">
-          <div class="rb-row"><span class="rb-tag">Fixed</span><b>$150 per video</b><small>prorated by uploads · max 4 / month</small></div>
-          <div class="rb-row"><span class="rb-tag t2">Bonus</span><b>+$100 at 100k views</b><small>first 7 days · paid at once</small></div>
-          <div class="rb-row"><span class="rb-tag t3">Cross-posts</span><b>One video, one payment</b><small>TikTok + Reels + Shorts grouped</small></div>
-          <div class="rb-row"><span class="rb-tag t4">Schedule</span><b>Monthly</b><small>on the 1st · you approve</small></div>
-        </div>
+      <div class="deal-panel" data-panel="ugc">
+        <p class="deal-sentence">Pay <mark class="h-fixed">$150 per video</mark>, <mark class="h-cap">up to 4 a month</mark>. Add <mark class="h-bonus">$100 when a video passes 100k views</mark> in its first week. <mark class="h-cross">Count a cross-post once</mark>. <mark class="h-sched">Pay monthly</mark>.</p>
+        <div class="deal-blocks"><div class="db c-fixed"><small>Fixed</small><b>$150 / video</b><span>prorated by uploads</span></div><div class="db c-cap"><small>Limit</small><b>4 videos / month</b><span>extra videos not paid</span></div><div class="db c-bonus"><small>Bonus</small><b>+$100</b><span>at 100k views, first 7 days</span></div><div class="db c-cross"><small>Cross-posts</small><b>Paid once</b><span>TikTok + Reels + Shorts</span></div><div class="db c-sched"><small>Schedule</small><b>Monthly</b><span>on the 1st, you approve</span></div></div>
       </div>
-
-      <div class="rule-panel" data-panel="clip" hidden>
-        <div class="rule-text">
-          <h3>Clipping</h3>
-          <p>Pay clippers per 1,000 views on every clip, with a floor so tiny clips don’t count and a cap so a viral one doesn’t surprise you.</p>
-          <q class="mono">“$1 per 1,000 views. Minimum 10k views per clip. Cap $1,000 per clip and $20,000 per week.”</q>
-        </div>
-        <div class="rule-build">
-          <div class="rb-row"><span class="rb-tag t2">CPM</span><b>$1 per 1,000 views</b><small>only after 10,000 views</small></div>
-          <div class="rb-row"><span class="rb-tag t5">Caps</span><b>$1,000 per clip</b><small>$20,000 per week for the program</small></div>
-          <div class="rb-row"><span class="rb-tag t3">Cross-posts</span><b>One clip, one payment</b><small>grouped by video and caption tag</small></div>
-          <div class="rb-row"><span class="rb-tag t4">Schedule</span><b>Weekly</b><small>Fridays 09:00 · you approve</small></div>
-        </div>
+      <div class="deal-panel" data-panel="clip" hidden>
+        <p class="deal-sentence">Pay <mark class="h-rate">$1 per 1,000 views</mark> on every clip, <mark class="h-min">from 10,000 views</mark>. <mark class="h-cap">Cap $1,000 per clip</mark>. <mark class="h-cross">Count a cross-post once</mark>. <mark class="h-sched">Pay every Friday</mark>.</p>
+        <div class="deal-blocks"><div class="db c-rate"><small>Per view</small><b>$1 / 1,000 views</b><span>every clip</span></div><div class="db c-min"><small>Minimum</small><b>10,000 views</b><span>smaller clips skipped</span></div><div class="db c-cap"><small>Cap</small><b>$1,000 / clip</b><span>viral stays on budget</span></div><div class="db c-cross"><small>Cross-posts</small><b>Paid once</b><span>grouped by video</span></div><div class="db c-sched"><small>Schedule</small><b>Weekly</b><span>Fridays 09:00</span></div></div>
       </div>
-
-      <div class="rule-panel" data-panel="infl" hidden>
-        <div class="rule-text">
-          <h3>Influencers</h3>
-          <p>A fee per post plus a per-view rate on top. Part of the fee up front if that’s your deal.</p>
-          <q class="mono">“$500 per Reel, 30% up front. Plus $10 per 1,000 views above 50k, capped at $2,000.”</q>
-        </div>
-        <div class="rule-build">
-          <div class="rb-row"><span class="rb-tag">Fixed</span><b>$500 per post</b><small>30% up front, rest on delivery</small></div>
-          <div class="rb-row"><span class="rb-tag t2">CPM</span><b>$10 per 1,000 views</b><small>above 50,000 views</small></div>
-          <div class="rb-row"><span class="rb-tag t5">Caps</span><b>$2,000 per post</b><small>the viral one stays on budget</small></div>
-          <div class="rb-row"><span class="rb-tag t4">Schedule</span><b>On delivery</b><small>you approve each post</small></div>
-        </div>
+      <div class="deal-panel" data-panel="infl" hidden>
+        <p class="deal-sentence">Pay <mark class="h-fixed">$500 per Reel</mark>, <mark class="h-sched">30% up front</mark>. Plus <mark class="h-rate">$10 per 1,000 views</mark> <mark class="h-min">above 50,000</mark>, <mark class="h-cap">capped at $2,000</mark>.</p>
+        <div class="deal-blocks"><div class="db c-fixed"><small>Fixed</small><b>$500 / post</b><span>per delivered Reel</span></div><div class="db c-sched"><small>Schedule</small><b>30% up front</b><span>rest on delivery</span></div><div class="db c-rate"><small>Per view</small><b>$10 / 1,000 views</b><span>on top of the fee</span></div><div class="db c-min"><small>Minimum</small><b>50,000 views</b><span>before per-view kicks in</span></div><div class="db c-cap"><small>Cap</small><b>$2,000 / post</b><span>including the fee</span></div></div>
       </div>
-
-      <div class="rule-panel" data-panel="amb" hidden>
-        <div class="rule-text">
-          <h3>Ambassadors</h3>
-          <p>A monthly retainer for a minimum number of posts, plus bonus tiers for your best people.</p>
-          <q class="mono">“$400 a month for at least 8 posts. +$200 at 500k views, +$500 at 1M.”</q>
-        </div>
-        <div class="rule-build">
-          <div class="rb-row"><span class="rb-tag">Retainer</span><b>$400 a month</b><small>minimum 8 posts, prorated if fewer</small></div>
-          <div class="rb-row"><span class="rb-tag t2">Bonus tiers</span><b>+$200 · +$500</b><small>at 500k and 1M views</small></div>
-          <div class="rb-row"><span class="rb-tag t3">Platforms</span><b>At least 2 platforms</b><small>TikTok, Instagram, YouTube</small></div>
-          <div class="rb-row"><span class="rb-tag t4">Schedule</span><b>Monthly</b><small>on the 1st · you approve</small></div>
-        </div>
+      <div class="deal-panel" data-panel="amb" hidden>
+        <p class="deal-sentence">Pay <mark class="h-fixed">$400 a month</mark> for <mark class="h-min">at least 8 posts</mark>. Add <mark class="h-bonus">$200 at 500k views and $500 at 1M</mark>. <mark class="h-cross">Post on at least 2 platforms</mark>.</p>
+        <div class="deal-blocks"><div class="db c-fixed"><small>Retainer</small><b>$400 / month</b><span>prorated if fewer posts</span></div><div class="db c-min"><small>Minimum</small><b>8 posts / month</b><span>counted across platforms</span></div><div class="db c-bonus"><small>Bonus tiers</small><b>+$200 · +$500</b><span>at 500k and 1M views</span></div><div class="db c-cross"><small>Platforms</small><b>2 or more</b><span>TikTok, Instagram, YouTube</span></div><div class="db c-sched"><small>Schedule</small><b>Monthly</b><span>on the 1st, you approve</span></div></div>
       </div>
     </div>
   </section>
 
-  <!-- 5. EVERY DOLLAR HAS A RECEIPT -->
+  <!-- 5. PROOF — a real receipt -->
   <section class="receipt-sec wrap rule">
     <div class="receipt-grid">
       <div class="receipt-copy">
         <span class="kicker">Proof</span>
         <h2>Every dollar has a receipt.</h2>
-        <p class="lead">“How much do we owe, and why?” is the hard part of creator programs. youpifi answers it for every person, every post, every payout.</p>
+        <p class="lead">“How much do we owe, and why?” is the hard part of creator programs. youpifi answers it for every person and every payout, and the creator sees the same receipt you do.</p>
         <ul class="ticks">
           <li><b>Proof per post.</b> Each amount links to the posts and views behind it.</li>
-          <li><b>Changes never rewrite the past.</b> New terms apply from a date you pick. What’s already paid stays paid.</li>
-          <li><b>Exclude or freeze a post</b> in one click, with a note the creator can see.</li>
-          <li><b>Disputes with a deadline.</b> Creators flag a missing post, you answer, nothing gets lost in DMs.</li>
+          <li><b>Changes never rewrite the past.</b> New terms start from a date you pick. What’s paid stays paid.</li>
+          <li><b>Exclude a post</b> in one click, with a reason the creator can see.</li>
+          <li><b>Disputes with a deadline.</b> A missing post gets flagged and answered, not lost in DMs.</li>
         </ul>
       </div>
-      <div class="receipt-card" aria-hidden="true">
-        <div class="rc-head"><img src="assets/img/face-11.jpg" alt=""><span><b>Priya N.</b><small>Spring launch · March 1–31</small></span><span class="status paid">Paid</span></div>
-        <div class="rc-posts">
-          <div class="rc-post"><div class="thumb t-a"><span>▶</span></div><span><b>“3 apps I can’t live without”</b><small>TikTok + Reels · grouped</small></span><em class="mono">18.4k</em></div>
-          <div class="rc-post"><div class="thumb t-b"><span>▶</span></div><span><b>“Morning routine, but make it calm”</b><small>TikTok</small></span><em class="mono">12.8k</em></div>
-          <div class="rc-post ex"><div class="thumb t-c"><span>▶</span></div><span><b>“Unboxing day”</b><small>Excluded · not about the app</small></span><em class="mono">3.7k</em></div>
+      <div class="paper" aria-hidden="true">
+        <div class="paper-in mono">
+          <div class="p-top"><b>youpifi</b><span>PAYOUT RECEIPT</span></div>
+          <div class="p-meta"><span>No. 0391</span><span>04 APR 2026</span></div>
+          <div class="p-meta"><span>Priya N. · IN</span><span>Spring launch</span></div>
+          <hr>
+          <div class="p-line"><span>3 apps I can’t live without</span><i></i><span>18,400</span></div>
+          <div class="p-sub">TikTok + Reels · counted once</div>
+          <div class="p-line"><span>Morning routine, calm edition</span><i></i><span>12,800</span></div>
+          <div class="p-line ex"><span>Unboxing day</span><i></i><span>3,700</span></div>
+          <div class="p-sub">excluded · not about the app</div>
+          <hr>
+          <div class="p-line"><span>Counted views</span><i></i><span>31,200</span></div>
+          <div class="p-line"><span>Rate</span><i></i><span>$25 / 1,000</span></div>
+          <div class="p-line"><span>Cap $800</span><i></i><span>not reached</span></div>
+          <hr class="dbl">
+          <div class="p-total"><span>TOTAL</span><span>$780.00</span></div>
+          <div class="p-foot"><span>Terms v3 · from 01 MAR</span><span>SEPA ···· 4821</span></div>
         </div>
-        <div class="rc-math">
-          <span><i>Counted views</i><em class="mono">31,200</em></span>
-          <span><i>× $25 per 1,000</i><em class="mono">$780.00</em></span>
-          <span><i>Cap $800 per creator</i><em class="mono ok">not reached ✓</em></span>
-          <span class="tot"><i>Paid on Fri, Apr 4</i><em class="mono">$780.00</em></span>
-        </div>
-        <div class="rc-foot"><span>Terms v3 · from March 1</span><span>Receipt.pdf ↓</span></div>
+        <span class="stamp">PAID</span>
       </div>
     </div>
   </section>
 
-  <!-- 6. CREATOR EXPERIENCE -->
-  <section class="calm wrap rule">
-    <div class="head">
-      <span class="kicker">For your creators</span>
-      <h2>Creators actually like<br>getting paid by you.</h2>
-    </div>
-    <div class="bento">
-      <article class="tile bg-sky">
-        <div class="tv" aria-hidden="true">
-          <span class="opt o1"><span class="fi fi-eu fis"></span>SEPA</span>
-          <span class="opt o2 on"><span class="fi fi-br fis"></span>Pix<span class="ck"></span></span>
-          <span class="opt o3">Visa / Mastercard</span>
-        </div>
-        <span class="tag">Their way</span>
-        <h3>Paid how they like</h3>
-        <p>Bank, card or the local app they use every day, in their own currency.</p>
-      </article>
-      <article class="tile bg-white">
-        <div class="tv" aria-hidden="true">
-          <ul class="checklist one">
-            <li><span class="ck"></span>Verified once</li>
-            <li><span class="ck"></span>Ready for every brand on youpifi</li>
-          </ul>
-        </div>
-        <span class="tag">Once</span>
-        <h3>Set up once, for every brand</h3>
-        <p>Identity, tax form and payout method are done one time. The next brand pays them right away.</p>
-      </article>
-      <article class="tile bg-matcha">
-        <div class="tv" aria-hidden="true">
-          <ol class="timeline big">
-            <li class="on"><span></span>Approved by the brand</li>
-            <li class="on"><span></span>Sent by youpifi</li>
-            <li><span></span>In their account</li>
-          </ol>
-        </div>
-        <span class="tag">Clarity</span>
-        <h3>No more “where’s my money?”</h3>
-        <p>They see every post, every amount and every status. <a href="get-paid.html" class="inline-link">How creators get paid →</a></p>
-      </article>
-    </div>
-  </section>
-
-  <!-- 7. MERCHANT OF RECORD -->
+  <!-- 6. MERCHANT OF RECORD + creators -->
   <section class="mor-sec wrap rule">
     <div class="mor">
       <div class="mor-copy">
         <span class="kicker">Merchant of record</span>
         <h2>We pay them.<br>You get one invoice.</h2>
-        <p>youpifi is the merchant of record for every payout we make. The paperwork that comes with paying hundreds of people sits with us, not with your finance team.</p>
+        <p>youpifi is the merchant of record for every payout we make, so the paperwork of paying hundreds of people sits with us. Creators set up once and get paid their way: bank, card or a local app. <a class="mor-link" href="get-paid.html">How creators get paid →</a></p>
       </div>
       <ul class="mor-list">
         <li><span class="ck"></span><span><b>Identity checks</b><small>Before the first payout, for every creator</small></span></li>
-        <li><span class="ck"></span><span><b>Tax forms on file</b><small>Collected from each creator before they’re paid</small></span></li>
-        <li><span class="ck"></span><span><b>Sanctions screening</b><small>On every payout, automatically</small></span></li>
-        <li><span class="ck"></span><span><b>Approvals and limits</b><small>Large payouts wait for an explicit yes</small></span></li>
+        <li><span class="ck"></span><span><b>Tax forms on file</b><small>Collected before anyone gets paid</small></span></li>
+        <li><span class="ck"></span><span><b>Set up once, for every brand</b><small>Verified creators are ready to be paid right away</small></span></li>
+        <li><span class="ck"></span><span><b>Their currency, their method</b><small>Bank, card or the local app they use</small></span></li>
         <li><span class="ck"></span><span><b>One invoice to you</b><small>Instead of hundreds from creators</small></span></li>
       </ul>
     </div>
   </section>
 
-  <!-- 8. COMPARISON -->
-  <section class="compare-sec wrap rule">
-    <div class="head">
-      <span class="kicker">Compare</span>
-      <h2>Why teams switch to youpifi.</h2>
-    </div>
-    <div class="compare" role="table" aria-label="Comparison">
-      <div class="c-row c-head" role="row"><span role="columnheader"></span><span role="columnheader">Spreadsheet + payment app</span><span role="columnheader">Influencer platforms</span><span role="columnheader" class="us">youpifi</span></div>
-      <div class="c-row" role="row"><span role="rowheader">Rules: fixed, per view, bonuses, caps</span><span>By hand</span><span>Partly</span><span class="us">Built in</span></div>
-      <div class="c-row" role="row"><span role="rowheader">Cross-posts paid once</span><span>If you notice</span><span>Rarely</span><span class="us">Automatic</span></div>
-      <div class="c-row" role="row"><span role="rowheader">Proof behind every payout</span><span>Screenshots</span><span>Partly</span><span class="us">Every post</span></div>
-      <div class="c-row" role="row"><span role="rowheader">Identity checks and tax forms</span><span>Your problem</span><span>Your problem</span><span class="us">On us</span></div>
-      <div class="c-row" role="row"><span role="rowheader">Pay everyone, any country</span><span>One by one</span><span>Limited</span><span class="us">One click</span></div>
-      <div class="c-row" role="row"><span role="rowheader">Finding creators</span><span>—</span><span class="ok">Yes</span><span class="us">Use your favourite tool</span></div>
-    </div>
-  </section>
-
-  <!-- 9. CALCULATOR -->
-  <section class="calc-sec wrap rule" id="calculator">
+  <!-- 7. PRICING + CALCULATOR -->
+  <section class="calc-sec wrap rule" id="pricing">
     <div class="head center">
-      <span class="kicker">Calculator</span>
-      <h2>What will a viral week cost you?</h2>
-      <p>Play with the numbers. This is the math youpifi runs for every creator.</p>
+      <span class="kicker">Pricing</span>
+      <h2>Up to 5% of each payout.</h2>
+      <p>Lower as your volume grows. No payouts, no fee. You decide who pays it: you, the creator, or both. Try it on a real post:</p>
     </div>
     <div class="calc">
       <form class="calc-in" onsubmit="return false">
@@ -443,77 +288,15 @@
         <p class="co-note" id="r-note">The cap saved you $340.00 on this post.</p>
       </div>
     </div>
+    <ul class="price-pills">
+      <li>Tracking, rules and receipts included</li>
+      <li>Identity checks and tax forms included</li>
+      <li>Volume pricing from day one</li>
+    </ul>
+    <div class="center-cta"><a class="btn btn-primary btn-lg" href="#start">Get a quote for your volume</a></div>
   </section>
 
-  <!-- 10. PRICING -->
-  <section class="pricing wrap rule" id="pricing">
-    <div class="head">
-      <span class="kicker">Pricing</span>
-      <h2>A small share of what you pay out.</h2>
-    </div>
-    <div class="price-card">
-      <div class="price">
-        <span class="price-num">≤5%</span>
-        <p>of each payout. Lower as your volume grows.</p>
-        <div class="math mono">
-          <span>100 creators × $400 → fee up to $2,000</span>
-          <span>No payouts this month → $0</span>
-        </div>
-      </div>
-      <div class="included">
-        <b>You decide who pays the fee</b>
-        <ul>
-          <li>You, on top of the payout</li>
-          <li>The creator, out of the payout</li>
-          <li>Or split it between you</li>
-        </ul>
-        <b>Every payout includes</b>
-        <ul>
-          <li>Tracking, rules and proof for every post</li>
-          <li>Identity checks and tax forms, as merchant of record</li>
-          <li>Payouts in the creator’s currency and method</li>
-        </ul>
-        <a class="btn btn-primary btn-lg" href="#start">Get a quote for your volume</a>
-      </div>
-    </div>
-  </section>
-
-  <!-- 11. PAYOUT METHODS -->
-  <section class="times wrap" id="payouts">
-    <div class="band">
-      <div class="band-top">
-        <div class="band-title">
-          <span class="kicker">Payouts</span>
-          <h2>Creators pick how they get paid.</h2>
-          <p>Bank, card or the local app they already use.</p>
-        </div>
-        <ul class="methods">
-          <li><b>Bank transfers</b><span>SWIFT, SEPA, ACH</span></li>
-          <li><b>Cards</b><span>Visa, Mastercard</span></li>
-          <li><b>Local rails &amp; apps</b><span>Pix, UPI, M-Pesa and more</span></li>
-        </ul>
-      </div>
-      <!-- Rails shown are examples. Keep only the ones your payment partner supports. -->
-      <div class="marquee" aria-label="Payment rails">
-        <div class="track">
-          <div class="lane">
-            <span class="rail"><span class="fi fi-eu fis"></span><b>SEPA</b><small>Europe</small></span>
-            <span class="rail"><span class="fi fi-us fis"></span><b>ACH</b><small>US</small></span>
-            <span class="rail"><span class="fi fi-gb fis"></span><b>Faster Payments</b><small>UK</small></span>
-            <span class="rail"><span class="fi fi-br fis"></span><b>Pix</b><small>Brazil</small></span>
-            <span class="rail"><span class="fi fi-in fis"></span><b>UPI</b><small>India</small></span>
-            <span class="rail"><span class="fi fi-mx fis"></span><b>SPEI</b><small>Mexico</small></span>
-            <span class="rail"><span class="fi fi-ph fis"></span><b>GCash</b><small>Philippines</small></span>
-            <span class="rail"><span class="fi fi-ke fis"></span><b>M-Pesa</b><small>Kenya</small></span>
-            <span class="rail"><b class="visa">VISA</b></span>
-          </div>
-          <div class="lane" aria-hidden="true"></div>
-        </div>
-      </div>
-    </div>
-  </section>
-
-  <!-- 12. FAQ -->
+  <!-- 8. FAQ -->
   <section class="faq wrap rule" id="faq">
     <div class="head">
       <span class="kicker">FAQ</span>
@@ -521,8 +304,8 @@
     </div>
     <div class="qa">
       <details open>
-        <summary>Which platforms do you track?</summary>
-        <p>TikTok, Instagram, YouTube and more. You can also send results from your own systems via API or upload a file.</p>
+        <summary>Where do the views come from?</summary>
+        <p>From TikTok, Instagram, YouTube and more, or from your own data: upload a file or send it via API.</p>
       </details>
       <details>
         <summary>What happens when a video goes viral?</summary>
@@ -539,10 +322,6 @@
       <details>
         <summary>Do creators need to sign up?</summary>
         <p>Only when it’s time to get paid. They set up once, and every brand on youpifi can pay them from then on.</p>
-      </details>
-      <details>
-        <summary>How is this different from influencer platforms?</summary>
-        <p>Influencer tools help you find creators. We take over after the deal is done: rules, counting, proof, paying and paperwork. Many teams use both.</p>
       </details>
     </div>
   </section>
